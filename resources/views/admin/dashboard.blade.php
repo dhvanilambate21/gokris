@@ -10,6 +10,8 @@
                         <a href="create" class="btn btn__create"><img src="{{ asset('backend/images/add-icon.png') }}"
                                 alt="" />Create</a>
                     </div>
+                @if(count($tests) > 0)
+
                 @foreach ($tests as $test)
                 <div class="quiz__amd">
                     <div class="test__sheet">
