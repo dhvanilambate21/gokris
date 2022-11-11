@@ -1,0 +1,17 @@
+@media (max-width: 1199px) {}
+
+@media (max-width: 991px) {}
+
+@media (max-width: 768px) {
+    .prewiev__hero {
+        display: none;
+    }
+
+    .form__hero {
+        width: 100vw;
+    }
+}
+
+@media (max-width: 575px) {}
+
+@media (max-width: 375px) {}

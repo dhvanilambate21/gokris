@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Logo@3x</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="48" height="48"></rect>
+        <path d="M28,2.30940108 L40.7846097,9.69059892 C43.2598183,11.1196613 44.7846097,13.7606774 44.7846097,16.6188022 L44.7846097,31.3811978 C44.7846097,34.2393226 43.2598183,36.8803387 40.7846097,38.3094011 L28,45.6905989 C25.5247914,47.1196613 22.4752086,47.1196613 20,45.6905989 L7.21539031,38.3094011 C4.7401817,36.8803387 3.21539031,34.2393226 3.21539031,31.3811978 L3.21539031,16.6188022 C3.21539031,13.7606774 4.7401817,11.1196613 7.21539031,9.69059892 L20,2.30940108 C22.4752086,0.880338717 25.5247914,0.880338717 28,2.30940108 Z" id="path-3"></path>
+        <filter x="-3.1%" y="-3.1%" width="106.2%" height="106.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="1" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="-1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.529999971 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner2"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.838443995   0 0 0 0 0.838443995   0 0 0 0 0.838443995  0 0 0 0.25 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="3.06161713e-15%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#D0D0D0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="🧰-Admin-Panel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0.Sign-In" transform="translate(-24.000000, -136.000000)">
+            <g id="sidebar" transform="translate(0.000000, 112.000000)">
+                <g id="Logo" transform="translate(24.000000, 24.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Logo-(Background/Mask)"></g>
+                    <g id="Polygon-1" mask="url(#mask-2)">
+                        <use fill="#272B30" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    </g>
+                    <path d="M24,18 C25.1045695,18 26,18.8954305 26,20 L26,28 C26,29.1045695 25.1045695,30 24,30 C22.8954305,30 22,29.1045695 22,28 L22,20 C22,18.8954305 22.8954305,18 24,18 Z" id="Rectangle-3" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                    <path d="M16,20 C17.1045695,20 18,20.8954305 18,22 L18,26 C18,27.1045695 17.1045695,28 16,28 C14.8954305,28 14,27.1045695 14,26 L14,22 C14,20.8954305 14.8954305,20 16,20 Z" id="Rectangle-4" fill="url(#linearGradient-5)" mask="url(#mask-2)"></path>
+                    <path d="M32,20 C33.1045695,20 34,20.8954305 34,22 L34,26 C34,27.1045695 33.1045695,28 32,28 C30.8954305,28 30,27.1045695 30,26 L30,22 C30,20.8954305 30.8954305,20 32,20 Z" id="Rectangle-5" fill="url(#linearGradient-5)" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

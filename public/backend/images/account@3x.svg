@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>account@3x</title>
+    <defs>
+        <filter x="-138.6%" y="-240.0%" width="377.1%" height="645.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feMorphology radius="4" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="32" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="24" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.100000001 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="2" operator="erode" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0500000007 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMorphology radius="6" operator="erode" in="SourceAlpha" result="shadowSpreadOuter3"></feMorphology>
+            <feOffset dx="0" dy="40" in="shadowSpreadOuter3" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="32" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0799999982 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="🧰-Admin-Panel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.-Home---Header" transform="translate(-1094.000000, -236.000000)">
+            <g id="Dropdown" filter="url(#filter-1)" transform="translate(1066.000000, 196.000000)">
+                <g id="Account-settings" transform="translate(16.000000, 28.000000)">
+                    <rect id="place-holder" x="0" y="0" width="248" height="48"></rect>
+                    <g id="Vector" transform="translate(12.000000, 12.000000)" fill="#6F767E">
+                        <path d="M14,10 C14,8.89543056 13.1045694,8 12,8 C10.8954306,8 10,8.89543056 10,10 C10,11.1045694 10.8954306,12 12,12 C13.1045694,12 14,11.1045694 14,10 Z M16,10 C16,7.79086113 14.2091389,6 12,6 C9.79086113,6 8,7.79086113 8,10 C8,12.2091389 9.79086113,14 12,14 C14.2091389,14 16,12.2091389 16,10 Z M22,12 C22,6.47715235 17.5228481,2 12,2 C6.47715235,2 2,6.47715235 2,12 C2,15.0133667 3.33284426,17.7154312 5.44116211,19.5488205 C7.19693422,21.0756359 9.49051857,22 12,22 C14.4162464,22 16.6323395,21.1430454 18.3609295,19.716486 C18.4276276,19.6614418 18.4935989,19.6055489 18.5588284,19.5488243 C20.6671505,17.715435 22,15.0133705 22,12 Z M12,20 C11.9913702,20 11.9827442,19.9999866 11.9741211,19.9999599 C11.8936844,19.9997044 11.8135271,19.9982624 11.7336655,19.9956493 C10.3913813,19.9517422 9.13273478,19.5771694 8.03654909,18.9507561 C8.95180655,17.763175 10.3882008,17 12,17 C13.6117907,17 15.0481853,17.7631779 15.9634438,18.9507599 C14.8649654,19.5784817 13.6033468,19.95331 12.257906,19.9959221 C12.1722698,19.9986343 12.0862942,20 12,20 Z M12,15 C9.73249245,15 7.71680403,16.0781403 6.43758535,17.749752 C4.93447208,16.2953129 4,14.2567854 4,12 C4,7.58172178 7.58172178,4 12,4 C16.4182777,4 20,7.58172178 20,12 C20,14.2567883 19.0655251,16.2953186 17.5624075,17.7497587 C16.2831888,16.0781431 14.2675009,15 12,15 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
