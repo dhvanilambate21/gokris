@@ -48,6 +48,13 @@
                         </div>
                 </div>
                 @endforeach
+                @else
+                <div class="quiz__amd">
+                
+                <h3>No test found</h3>
+
+                </div>
+                @endif
             </div>
         </div>
     </div>
